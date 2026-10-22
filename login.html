@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    Digite o seu usuario:
+    <input id="usuario" type="text"><br>
+    Digite a sua senha:
+    <input id="senha" type="password"><br>
+    <button onclick="entrar()">Entrar</button>
+
+    <script>
+        function entrar(){
+            var usuario = document.getElementById("usuario").value;
+            var senha = document.getElementById("senha").value;
+
+            if(usuario == "Otavio e Bernardo" && senha == "cesf2026"){
+                alert("Seja bem vindo");
+            }
+            else{
+                alert("senha incorreta, tente novamente");
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
